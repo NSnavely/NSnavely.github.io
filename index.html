@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Video Banner</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Natalia Snavely</title>
+
 </head>
 <body>
+
+    <section class="video-banner">
+
+        <video autoplay muted loop playsinline controls>
+
+            <source src="flowermountain.mp4" type="video/mp4">
+
+            Your browser does not support this video.
+        </video>
+        <img
+        src="Family.JPG"
+        alt="My photo"
+        class="corner-photo"
+        >
+
+    </section>
+        
 <header>
-    <img src="flower.png" alt="Favorite Flower" width="300">
-    <div class="intro"> 
+    <div class="centered">
+   
          <h1>Natalia Snavely</h1>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil distinctio deleniti vel voluptatum aut ipsa sunt? Eligendi, porro molestias nihil iste quasi eum quo commodi veritatis! Excepturi, ratione fugiat!</p>
- </div>
+     <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil distinctio deleniti vel voluptatum aut ipsa sunt? Eligendi, porro molestias nihil iste quasi eum quo commodi veritatis! Excepturi, ratione fugiat!
+     </p>
+    </div>
 </header>
+<div id="greeting"></div>
+
 <main>
 <section>
 <h2>About Me</h2>
     <p>
   I enjoy coocking, reading and taking photographs.      
     </p>
+    <a href="favorites.html" class="favorites-btn">
+        🖤 My favorites
+    </a>
 </section>
 <section>
  <h2>Skills</h2> 
@@ -30,13 +56,21 @@
  <li>I am bilingual in english and spanish </li>
   </ul>
 </section>
+
 <section>
  <h2>Work Experience</h2>  
 </section>
+
 </main>
+
 <footer class="centered">
     Connect with me on
-    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">linkedin</a>
+    <a href="https://www.linkedin.com/feed/" 
+    target="_blank"
+     rel="noopener noreferrer">
+     linkedin
+    </a>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
